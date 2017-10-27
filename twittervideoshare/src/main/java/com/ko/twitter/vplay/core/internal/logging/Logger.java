@@ -82,7 +82,7 @@ public abstract class Logger {
         try {
             Class.forName(checkClassName);
             return (LoggerFactory) Class.forName(implementationClass).newInstance();
-        } catch (ClassNotFoundException ignore) {
+        } catch ( ClassNotFoundException ignore) {
         } catch (InstantiationException e) {
             throw new AssertionError(e);
         } catch (SecurityException ignore) {

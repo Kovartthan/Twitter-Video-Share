@@ -25,8 +25,8 @@ package com.ko.twitter.vplay.core.conf;
  */
 
 public final class ConfigurationContext {
-    private static final String DEFAULT_CONFIGURATION_FACTORY = "com.example.admin.PropertyConfigurationFactory";
-    private static final String CONFIGURATION_IMPL = "com.example.admin.PropertyConfigurationFactory.configurationFactory";
+    private static final String DEFAULT_CONFIGURATION_FACTORY = "com.ko.twitter.vplay.core.conf.PropertyConfigurationFactory";
+    private static final String CONFIGURATION_IMPL = "com.ko.twitter.vplay.core.conf.configurationFactory";
     private static final ConfigurationFactory factory;
 
     static {

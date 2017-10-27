@@ -1,9 +1,30 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'TwitterVplay' // your repo name
+    bintrayName = 'twittervideoshare' // has to be same as your library module name
+    publishedGroupId = 'com.ko.twitter.vplay.core' // your module package name
+    libraryName = 'TwitterVplay'
+    artifact = 'twittervideoshare' // has to be same as your library module name
+    libraryDescription = 'Twitter video share to android'
+    siteUrl = ''
+    gitUrl = 'https://github.com/Kovartthan/TwitterVplay.git'
+    libraryVersion = '1.0'
+    developerId = 'kovartthan'
+    developerName = 'kovartthan'
+    developerEmail = 'kovartthan@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 26
+    lintOptions {
+        abortOnError false
+    }
     buildToolsVersion "26.0.1"
-
+    compileOptions.encoding = 'ISO-8859-1'
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 26
@@ -19,6 +40,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -31,3 +53,6 @@ dependencies {
     compile 'com.google.appengine:appengine-endpoints-deps:1.9.1'
     testCompile 'junit:junit:4.12'
 }
+
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'

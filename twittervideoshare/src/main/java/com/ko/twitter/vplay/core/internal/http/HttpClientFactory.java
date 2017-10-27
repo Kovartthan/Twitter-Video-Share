@@ -29,7 +29,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public final class HttpClientFactory {
     private static final Constructor<?> HTTP_CLIENT_CONSTRUCTOR;
-    private static final String HTTP_CLIENT_IMPLEMENTATION = "com.example.admin.HttpClient";
+    private static final String HTTP_CLIENT_IMPLEMENTATION = "com.ko.twitter.vplay.core.internal.http.HttpClient";
 
     static {
         Class<?> clazz = null;
@@ -44,13 +44,13 @@ public final class HttpClientFactory {
         if (null == clazz) {
             try {
 
-                clazz = Class.forName("com.example.admin.AlternativeHttpClientImpl");
+                clazz = Class.forName("com.ko.twitter.vplay.core.AppEngine.AlternativeHttpClientImpl");
             } catch (ClassNotFoundException ignore) {
             }
         }
         if (null == clazz) {
             try {
-                clazz = Class.forName("com.example.admin.HttpClientImpl");
+                clazz = Class.forName("com.ko.twitter.vplay.core.internal.http.HttpClientImpl");
             } catch (ClassNotFoundException cnfe) {
                 throw new AssertionError(cnfe);
             }
