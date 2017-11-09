@@ -1,4 +1,4 @@
-# Twitter VPlay 
+# Twitter Video Share
 ## Twitter Video Share Without using the composer .
 
 This is the extension of the Twitter4j library . This library used to share the video along with the text silently that means without using the composer. 
