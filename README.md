@@ -3,7 +3,7 @@
 
 This is the extension of the Twitter4j library . This library used to share the video along with the text silently that means without using the composer. 
 
-**IMPORTANT NOTE : Please download the above project and run it , if u have any doubt in souce refer MainActivity.class in the app folder and refer gradle too avoid unnecessary error**
+**IMPORTANT NOTE : Please download the above project and run it , if u have any doubt in souce refer MainActivity.class in the app folder and refer gradle too avoid unnecessary error . Please insert the Consumer_key and Consumer_secret in the strings file. **
 
 ## SETUP 
 
@@ -13,7 +13,7 @@ This is the extension of the Twitter4j library . This library used to share the 
 ```
 compile 'com.ko.twitter.vplay.core:twittervideoshare:1.0.1'
 ```
-or maven 
+###### or maven 
 
 ```
 <dependency>
