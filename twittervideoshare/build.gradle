@@ -9,7 +9,7 @@ ext {
     libraryDescription = 'Twitter video share to android'
     siteUrl = ''
     gitUrl = 'https://github.com/Kovartthan/TwitterVplay.git'
-    libraryVersion = '1.0'
+    libraryVersion = '1.0.1'
     developerId = 'kovartthan'
     developerName = 'kovartthan'
     developerEmail = 'kovartthan@gmail.com'
@@ -50,7 +50,9 @@ dependencies {
     })
     compile 'com.squareup.okhttp3:okhttp:3.9.0'
     compile 'com.google.appengine:appengine-endpoints:1.9.1'
+    annotationProcessor 'com.google.appengine:appengine-endpoints:1.9.1'
     compile 'com.google.appengine:appengine-endpoints-deps:1.9.1'
+    annotationProcessor 'com.google.appengine:appengine-endpoints-deps:1.9.1'
     testCompile 'junit:junit:4.12'
 }
 
