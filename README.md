@@ -1,4 +1,5 @@
-# Twitter Video Share
+
+# Twitter Video Share  ![alt text](https://img.shields.io/badge/Android%20Arsenal-Twiiter%20Silent%20Video%20Share-blue.svg?style=flat)
 ## Twitter Video Share Without using the composer .
 
 This is the extension of the Twitter4j library . This library used to share the video along with the text silently that means without using the composer. 
