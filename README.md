@@ -12,7 +12,7 @@ This is the extension of the Twitter4j library . This library used to share the 
 
 ###### First : Add the dependency to the gradle
 ```
-compile 'com.ko.twitter.vplay.core:twittervideoshare:1.0.1'
+compile 'com.ko.twitter.vplay.core:twittervideoshare:1.0.3'
 ```
 ###### or maven 
 
