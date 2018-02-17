@@ -20,7 +20,7 @@ compile 'com.ko.twitter.vplay.core:twittervideoshare:1.0.3'
 <dependency>
   <groupId>com.ko.twitter.vplay.core</groupId>
   <artifactId>twittervideoshare</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.3</version>
   <type>pom</type>
 </dependency>
 
