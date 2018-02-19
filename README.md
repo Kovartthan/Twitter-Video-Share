@@ -90,7 +90,7 @@ final TwitterSession session = TwitterCore.getInstance().getSessionManager().get
  twitter.uploadMediaChunked("video", fileInputStream);
 ```
 
-**NOTE : Do the above syntax in async task , to avoid lag in your UI Thread**
+**NOTE : Do the above operation in async task , to avoid lag in your UI Thread**
 
 
 
