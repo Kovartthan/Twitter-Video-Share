@@ -4,6 +4,8 @@
 
 This is the extension of the Twitter4j library . This library used to share the video along with the text silently that means without using the composer. 
 
+**NOTE : Library size may be around 1Mb or less than that ... in future it will be optimized**
+
 **IMPORTANT NOTE : Please download the above project and run it , if u have any doubt in souce refer MainActivity.class in the app folder and refer gradle too avoid unnecessary error . Please insert the Consumer_key and Consumer_secret in the strings file.**
 
 ## SETUP 
