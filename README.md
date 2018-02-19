@@ -56,7 +56,7 @@ if (android.os.Build.VERSION.SDK_INT > 16) {
 final TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
 ```
 
-**Setup confiuration builder for the twiiter video share** 
+**Setup confiuration builder for the twitter video share** 
 
 ```
  private com.ko.twitter.vplay.core.Twitter twitter;
